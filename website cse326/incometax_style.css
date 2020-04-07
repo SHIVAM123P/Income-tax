@@ -1,0 +1,65 @@
+h3{
+  color:red;
+}
+
+
+.img{
+  position: relative;
+  top: 10px;
+
+  width: 8%;
+  height:8%;
+  float: left;
+
+}
+.intro{
+    clear: left;
+}
+
+.link{
+  position: relative;
+  left: 75%;
+}
+
+.scroll{
+  position: relative;
+
+}
+
+
+.login{
+    float: left;
+}
+
+.news{
+  position: absolute;
+  left: 30%;
+}
+
+
+.footer{
+  position: absolute;
+  left: 90%;
+}
+
+.bottom-container{
+  font: 10px;
+  position: absolute;
+  left: 30%;
+  top: 100%;
+}
+
+.faq{
+  color:red;
+}
+.first{
+  position: relative;
+  float: left;
+}
+.second{
+  position: relative;
+  bottom: 10%;
+}
+body{
+  background-color: #66BFBF;
+}
