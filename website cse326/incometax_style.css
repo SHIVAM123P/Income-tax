@@ -34,19 +34,21 @@ h3{
 .news{
   position: absolute;
   left: 30%;
+  font-size: 25px;
 }
 
 
 .footer{
   position: absolute;
   left: 90%;
+  font-size: 20px;
 }
 
 .bottom-container{
-  font: 10px;
+  font-size: 10px;
   position: absolute;
   left: 30%;
-  top: 100%;
+  top: 150%;
 }
 
 .faq{
@@ -63,3 +65,21 @@ h3{
 body{
   background-color: #66BFBF;
 }
+
+@media (max-width:900px) {
+   .navbar{
+     font-size: 15px;
+     z-index: -1;
+   }
+   .bottom-container{
+     position: absolute;
+     bottom:  150%;
+
+   }
+   .footer{
+     font-size: 15px;
+
+   }
+
+
+    }
